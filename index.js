@@ -10,7 +10,7 @@ client.on('message', message => {
 		message.channel.send('nah dude, stardew valley is a lot better');
 	}
 	if (message.content === 'is stardew good?' || message.content === 'is stardew valley good?') {
-		message.channel.send('Yes');
+		message.channel.send('YES');
 	}
 	if (message.content.toString().indexOf('Rohan')!=-1 || message.content.toString().indexOf('rohan')!=-1) {
 		message.channel.send('under the water he needs help');
@@ -68,7 +68,7 @@ client.on('message', message => {
 	}
 	if (message.content.indexOf('monkaS')!=-1)
 	{
-		message.channel.send('https://i.kym-cdn.com/entries/icons/facebook/000/022/713/MonkaSSS.jpg');
+		message.channel.send('https://cdn.betterttv.net/emote/56e9f494fff3cc5c35e5287e/3x');
 	}
 	if (message.content.indexOf('OMEGALUL')!=-1)
 	{
@@ -88,7 +88,7 @@ client.on('message', message => {
 	}
 	if (message.content.indexOf('PepePls')!=-1)
 	{
-		message.channel.send('https://i.kym-cdn.com/entries/icons/original/000/031/069/3x_(1).jpg');
+		message.channel.send('https://cdn.betterttv.net/emote/55898e122612142e6aaa935b/3x');
 	}
 	if (message.content.indexOf('EZ')!=-1)
 	{
