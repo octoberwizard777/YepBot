@@ -121,4 +121,5 @@ client.on('message', message => {
 	}
 
 });
-client.login('');
+var auth = require('./auth.json');
+client.login(auth.token);
