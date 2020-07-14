@@ -7,7 +7,7 @@ client.once('ready', () => {
 client.on('message', message => {
 	console.log(message.content);
 	if (message.content === 'is katana 0 good?' || message.content === 'is katana zero good?') {
-		message.channel.send('nah dude, stardew valley is a lot better');
+		message.channel.send('ye');
 	}
 	if (message.content === 'is stardew good?' || message.content === 'is stardew valley good?') {
 		message.channel.send('YES');
@@ -16,7 +16,7 @@ client.on('message', message => {
 		message.channel.send('under the water he needs help');
 		message.channel.send('-play i am under the water');
 	}
-	if (message.content.toString().indexOf('shek')!=-1 || message.content.toString().indexOf('shek')!=-1  || message.content.toString().indexOf('shrek')!=-1) {
+	if (message.content.toString().indexOf('shrek')!=-1 || message.content.toString().indexOf('shrek')!=-1  || message.content.toString().indexOf('shrek')!=-1) {
 		message.channel.send('roll the dice fucker');
 	}
 	if (message.content.toString().indexOf('Harshith')!=-1 || message.content.toString().indexOf('harshith')!=-1) {
@@ -56,7 +56,7 @@ client.on('message', message => {
 	//********************MEMES*************************************
 	if (message.content.substr(0,3)=='pog' || message.content.substr(0,3)=='Pog')
 	{
-    message.channel.send('https://i.redd.it/7au96kl43rm01.png');
+    message.channel.send('https://cdn.frankerfacez.com/emoticon/210748/1');
 	}
 	if (message.content.substr(0,6)=='squadW')
 	{
