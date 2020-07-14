@@ -80,7 +80,7 @@ client.on('message', message => {
 	}
 	if (message.content.indexOf('POGGERS')!=-1)
 	{
-		message.channel.send('https://www.streamscheme.com/wp-content/uploads/2020/04/poggers.png');
+		message.channel.send('https://cdn.betterttv.net/emote/58ae8407ff7b7276f8e594f2/3x');
 	}
 	if (message.content.indexOf('PepeHands')!=-1)
 	{
