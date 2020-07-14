@@ -10,7 +10,7 @@ client.on('message', message => {
 		message.channel.send('nah dude, stardew valley is a lot better');
 	}
 	if (message.content === 'is stardew good?' || message.content === 'is stardew valley good?') {
-		message.channel.send('YES');
+		message.channel.send('Yes');
 	}
 	if (message.content.toString().indexOf('Rohan')!=-1 || message.content.toString().indexOf('rohan')!=-1) {
 		message.channel.send('under the water he needs help');
