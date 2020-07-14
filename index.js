@@ -56,7 +56,7 @@ client.on('message', message => {
 	//********************MEMES*************************************
 	if (message.content.substr(0,3)=='pog' || message.content.substr(0,3)=='Pog')
 	{
-    message.channel.send('https://cdn.frankerfacez.com/emoticon/210748/1');
+    message.channel.send('https://cdn.betterttv.net/emote/5db280906fc9dd12cbaf1d81/3x');
 	}
 	if (message.content.substr(0,6)=='squadW')
 	{
