@@ -76,7 +76,7 @@ client.on('message', message => {
 	}
 	if (message.content.indexOf('OMEGALUL')!=-1)
 	{
-		message.channel.send('https://i.ytimg.com/vi/0o1__iNJ7Bo/hqdefault.jpg');
+		message.channel.send('https://cdn.betterttv.net/emote/583089f4737a8e61abb0186b/3x');
 	}
 	if (message.content.indexOf('Clap')!=-1)
 	{
@@ -88,7 +88,7 @@ client.on('message', message => {
 	}
 	if (message.content.indexOf('PepeHands')!=-1)
 	{
-		message.channel.send('https://i.kym-cdn.com/entries/icons/facebook/000/025/382/Screen_Shot_2018-02-06_at_3.37.14_PM.jpg');
+		message.channel.send('https://cdn.betterttv.net/emote/59f27b3f4ebd8047f54dee29/3x');
 	}
 	if (message.content.indexOf('PepePls')!=-1)
 	{
@@ -96,7 +96,7 @@ client.on('message', message => {
 	}
 	if (message.content.indexOf('EZ')!=-1)
 	{
-		message.channel.send('https://ih1.redbubble.net/image.500694133.5027/flat,750x1000,075,f.u1.jpg');
+		message.channel.send('https://cdn.betterttv.net/emote/5590b223b344e2c42a9e28e3/3x');
 	}
 	if (message.content.indexOf('Pepega')!=-1)
 	{
