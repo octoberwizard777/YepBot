@@ -70,6 +70,10 @@ client.on('message', message => {
 	{
 		message.channel.send('https://cdn.betterttv.net/emote/56e9f494fff3cc5c35e5287e/3x');
 	}
+	if (message.content.indexOf('stardew')!=-1)
+	{
+		message.channel.send('Steam user Obama Gaming recomends this game and said "There is something about this game that is so addicting."');
+	}
 	if (message.content.indexOf('OMEGALUL')!=-1)
 	{
 		message.channel.send('https://i.ytimg.com/vi/0o1__iNJ7Bo/hqdefault.jpg');
