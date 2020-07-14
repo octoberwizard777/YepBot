@@ -47,7 +47,7 @@ client.on('message', message => {
 	}
 	if (message.content.substr(0,2)=='EZ')
 	{
-		message.channel.send('CLAP');
+		message.channel.send('Clap');
 	}
 	if (message.content.substr(0,4)=='lmao')
 	{
