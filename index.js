@@ -96,7 +96,7 @@ client.on('message', message => {
 	}
 	if (message.content.indexOf('Pepega')!=-1)
 	{
-		message.channel.send('https://ih0.redbubble.net/image.1125116964.1228/ap,550x550,12x12,1,transparent,t.u3.png');
+		message.channel.send('https://cdn.betterttv.net/emote/5aca62163e290877a25481ad/3x');
 	}
 	//**************************************************************
 	if (message.content.indexOf('joe?')!=-1)
