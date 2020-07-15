@@ -45,16 +45,13 @@ client.on('message', message => {
 	{
 		message.channel.send('COCK');
 	}
-	if (message.content.substr(0,2)=='EZ')
-	{
-		message.channel.send('Clap');
-	}
+
 	if (message.content.substr(0,4)=='lmao')
 	{
 		message.channel.send('<@'+message.author.id+'> has litterally laughed their ass off and its gone now. send help');
 	}
 	//********************MEMES*************************************
-	if (message.content.substr(0,3)=='pog' || message.content.substr(0,3)=='Pog')
+	if ((message.content.substr(0,3)=='pog' || message.content.substr(0,3)=='Pog') && message.content.substr(0,4)!='PogU' && message.content.toString().length == 3)
 	{
     message.channel.send('https://cdn.betterttv.net/emote/5db280906fc9dd12cbaf1d81/3x');
 	}
@@ -78,6 +75,10 @@ client.on('message', message => {
 	{
 		message.channel.send('https://cdn.betterttv.net/emote/583089f4737a8e61abb0186b/3x');
 	}
+	if (message.content.indexOf('EZ')!=-1)
+	{
+		message.channel.send('https://cdn.betterttv.net/emote/5590b223b344e2c42a9e28e3/3x');
+	}
 	if (message.content.indexOf('Clap')!=-1)
 	{
 		message.channel.send('https://cdn.betterttv.net/emote/55b6f480e66682f576dd94f5/3x');
@@ -94,10 +95,6 @@ client.on('message', message => {
 	{
 		message.channel.send('https://cdn.betterttv.net/emote/55898e122612142e6aaa935b/3x');
 	}
-	if (message.content.indexOf('EZ')!=-1)
-	{
-		message.channel.send('https://cdn.betterttv.net/emote/5590b223b344e2c42a9e28e3/3x');
-	}
 	if (message.content.indexOf('Pepega')!=-1)
 	{
 		message.channel.send('https://cdn.betterttv.net/emote/5aca62163e290877a25481ad/3x');
@@ -106,7 +103,7 @@ client.on('message', message => {
 	{
 		message.channel.send('https://cdn.betterttv.net/emote/5dc79d1b27360247dd6516ec/3x');
 	}
-	if (message.content.indexOf('PogU')!=-1)
+	if (message.content.substr(0,4)=='PogU')
 	{
 		message.channel.send('https://cdn.betterttv.net/emote/5e4e7a1f08b4447d56a92967/3x');
 	}
