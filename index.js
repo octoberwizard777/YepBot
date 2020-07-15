@@ -50,7 +50,9 @@ client.on('message', message => {
 	{
 		message.channel.send('<@'+message.author.id+'> has litterally laughed their ass off and its gone now. send help');
 	}
-	//********************MEMES*************************************
+	//***********************************************************
+	// 										MEMES
+	//***********************************************************
 	if ((message.content.substr(0,3)=='pog' || message.content.substr(0,3)=='Pog') && message.content.substr(0,4)!='PogU' && message.content.toString().length == 3)
 	{
     message.channel.send('https://cdn.betterttv.net/emote/5db280906fc9dd12cbaf1d81/3x');
@@ -152,6 +154,17 @@ client.on('message', message => {
 		message.channel.send('https://cdn.betterttv.net/emote/5b9ece3bee018c1569cb8608/3x');
 	}
 	//**************************************************************
+	//				COPY PASTAS
+	//**************************************************************
+	if (message.content.indexOf('shungite')!=-1 && message.content.indexOf('Suge Knight')==-1)
+	{
+		message.channel.send("Anyways, um... I bought a whole bunch of shungite rocks, do you know what shungite is? Anybody know what shungite is? No, not Suge Knight, I think he's locked up in prison. I'm talkin' shungite. Anyways, it's a two billion year-old like, rock, stone that protects against frequencies and unwanted frequencies that may be traveling in the air. That's my story, I bought a whole bunch of stuff. Put 'em around the la casa. Little pyramids, stuff like that.", {tts:false});
+	}
+	if (message.content.indexOf('gamer girl')!=-1 && message.content.indexOf('bazooooooooing')==-1)
+	{
+		message.channel.send('A girl.... AND a gamer? Whoa mama! Hummina hummina hummina bazooooooooing! eyes pop out AROOOOOOOOGA! jaw drops tongue rolls out WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF tongue bursts out of the mouth uncontrollably leaking face and everything in reach WURBLWUBRLBWURblrwurblwurlbrwubrlwburlwbruwrlblwublr tiny cupid shoots an arrow through heart Ahhhhhhhhhhh me lady... heart in the shape of a heart starts beating so hard you can see it through shirt ba-bum ba-bum ba-bum ba-bum ba-bum milk truck crashes into a bakery store in the background spiling white liquid and dough on the streets BABY WANTS TO FUCK inhales from the gas tank honka honka honka honka' , {tts:false});
+	}
+	//**************************************************************
 	if (message.content.indexOf('joe?')!=-1)
 	{
     message.channel.send('JOE MAMA', {tts:false});
@@ -171,14 +184,6 @@ client.on('message', message => {
 	if (message.content.indexOf('lawnmower please')!=-1 && message.content.indexOf('g')==-1)
 	{
 		message.channel.send('The lawnmower goes shersheeeeeeerrerererereeeerrr vavavoom sherererererere and Rice burners go wowowowowowowowowowowowowowowowowowowowowowow' , {tts:false});
-	}
-	if (message.content.indexOf('shungite')!=-1 && message.content.indexOf('Suge Knight')==-1)
-	{
-		message.channel.send("Anyways, um... I bought a whole bunch of shungite rocks, do you know what shungite is? Anybody know what shungite is? No, not Suge Knight, I think he's locked up in prison. I'm talkin' shungite. Anyways, it's a two billion year-old like, rock, stone that protects against frequencies and unwanted frequencies that may be traveling in the air. That's my story, I bought a whole bunch of stuff. Put 'em around the la casa. Little pyramids, stuff like that.", {tts:false});
-	}
-	if (message.content.indexOf('gamer girl')!=-1 && message.content.indexOf('bazooooooooing')==-1)
-	{
-		message.channel.send('A girl.... AND a gamer? Whoa mama! Hummina hummina hummina bazooooooooing! eyes pop out AROOOOOOOOGA! jaw drops tongue rolls out WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF tongue bursts out of the mouth uncontrollably leaking face and everything in reach WURBLWUBRLBWURblrwurblwurlbrwubrlwburlwbruwrlblwublr tiny cupid shoots an arrow through heart Ahhhhhhhhhhh me lady... heart in the shape of a heart starts beating so hard you can see it through shirt ba-bum ba-bum ba-bum ba-bum ba-bum milk truck crashes into a bakery store in the background spiling white liquid and dough on the streets BABY WANTS TO FUCK inhales from the gas tank honka honka honka honka' , {tts:false});
 	}
 
 });
