@@ -147,6 +147,10 @@ client.on('message', message => {
 	{
 		message.channel.send('https://cdn.betterttv.net/emote/5b390f0405e329206af6ebc2/3x');
 	}
+	if (message.content.indexOf('PepeScoots')!=-1)
+	{
+		message.channel.send('https://cdn.betterttv.net/emote/5b9ece3bee018c1569cb8608/3x');
+	}
 	//**************************************************************
 	if (message.content.indexOf('joe?')!=-1)
 	{
