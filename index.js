@@ -134,6 +134,18 @@ client.on('message', message => {
 	{
 		message.channel.send('https://cdn.betterttv.net/emote/58facc4aaffae60eac088397/3x');
 	}
+	if (message.content.indexOf('FeelsGoodMan')!=-1)
+	{
+		message.channel.send('https://cdn.betterttv.net/emote/5e74e336d6581c3724c0d49d/3x');
+	}
+	if (message.content.indexOf('FeelsBadMan')!=-1)
+	{
+		message.channel.send('https://cdn.betterttv.net/emote/566c9fc265dbbdab32ec053b/3x');
+	}
+	if (message.content.indexOf('FeelsDankMan')!=-1)
+	{
+		message.channel.send('https://cdn.betterttv.net/emote/5d6209854932b21d9c333195/3x');
+	}
 	//**************************************************************
 	if (message.content.indexOf('joe?')!=-1)
 	{
