@@ -151,6 +151,10 @@ client.on('message', message => {
 	{
 		message.channel.send('https://cdn.betterttv.net/emote/5d3e0e1236c0c02aeb6d2b30/3x');
 	}
+	if (message.content.indexOf('widepeepoHappy')!=-1)
+	{
+		message.channel.send('https://cdn.betterttv.net/emote/5e1a76dd8af14b5f1b438c04/3x');
+	}
 	if (message.content.indexOf('Clap')!=-1)
 	{
 		message.channel.send('https://cdn.betterttv.net/emote/55b6f480e66682f576dd94f5/3x');
