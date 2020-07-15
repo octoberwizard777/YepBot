@@ -81,10 +81,6 @@ client.on('message', message => {
 	{
 		message.channel.send('https://cdn.betterttv.net/emote/5590b223b344e2c42a9e28e3/3x');
 	}
-	if (message.content.indexOf('Clap')!=-1)
-	{
-		message.channel.send('https://cdn.betterttv.net/emote/55b6f480e66682f576dd94f5/3x');
-	}
 	if (message.content.indexOf('POGGERS')!=-1)
 	{
 		message.channel.send('https://cdn.betterttv.net/emote/58ae8407ff7b7276f8e594f2/3x');
@@ -152,6 +148,18 @@ client.on('message', message => {
 	if (message.content.indexOf('PepeScoots')!=-1)
 	{
 		message.channel.send('https://cdn.betterttv.net/emote/5b9ece3bee018c1569cb8608/3x');
+	}
+	if (message.content.indexOf('Kappa')!=-1)
+	{
+		message.channel.send('https://cdn.betterttv.net/emote/5d3e0e1236c0c02aeb6d2b30/3x');
+	}
+	if (message.content.indexOf('widepeepoHappy')!=-1)
+	{
+		message.channel.send('https://cdn.betterttv.net/emote/5e1a76dd8af14b5f1b438c04/3x');
+	}
+	if (message.content.indexOf('Clap')!=-1)
+	{
+		message.channel.send('https://cdn.betterttv.net/emote/55b6f480e66682f576dd94f5/3x');
 	}
 	//**************************************************************
 	//				COPY PASTAS
