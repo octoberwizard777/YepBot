@@ -115,6 +115,38 @@ client.on('message', message => {
 	{
 		message.channel.send('https://cdn.betterttv.net/emote/5d6096974932b21d9c332904/3x');
 	}
+	if (message.content.indexOf('PogChamp')!=-1)
+	{
+		message.channel.send('https://cdn.betterttv.net/emote/5db3d44afb4519723fb2a071/3x');
+	}
+	if (message.content.indexOf('WeirdChamp')!=-1)
+	{
+		message.channel.send('https://cdn.betterttv.net/emote/5d9198fbd2458468c1f4adb7/3x');
+	}
+	if (message.content.indexOf('Sadge')!=-1)
+	{
+		message.channel.send('https://cdn.betterttv.net/emote/5e0fa9d40550d42106b8a489/3x');
+	}
+	if (message.content.indexOf('FeelsStrongMan')!=-1)
+	{
+		message.channel.send('https://cdn.betterttv.net/emote/58facc4aaffae60eac088397/3x');
+	}
+	if (message.content.indexOf('FeelsGoodMan')!=-1)
+	{
+		message.channel.send('https://cdn.betterttv.net/emote/5e74e336d6581c3724c0d49d/3x');
+	}
+	if (message.content.indexOf('FeelsBadMan')!=-1)
+	{
+		message.channel.send('https://cdn.betterttv.net/emote/566c9fc265dbbdab32ec053b/3x');
+	}
+	if (message.content.indexOf('FeelsDankMan')!=-1)
+	{
+		message.channel.send('https://cdn.betterttv.net/emote/5d6209854932b21d9c333195/3x');
+	}
+	if (message.content.indexOf('BOGGED')!=-1)
+	{
+		message.channel.send('https://cdn.betterttv.net/emote/5b390f0405e329206af6ebc2/3x');
+	}
 	//**************************************************************
 	if (message.content.indexOf('joe?')!=-1)
 	{
@@ -135,6 +167,14 @@ client.on('message', message => {
 	if (message.content.indexOf('lawnmower please')!=-1 && message.content.indexOf('g')==-1)
 	{
 		message.channel.send('The lawnmower goes shersheeeeeeerrerererereeeerrr vavavoom sherererererere and Rice burners go wowowowowowowowowowowowowowowowowowowowowowow' , {tts:false});
+	}
+	if (message.content.indexOf('shungite')!=-1 && message.content.indexOf('g')==-1)
+	{
+		message.channel.send('Anyways, um... I bought a whole bunch of shungite rocks, do you know what shungite is? Anybody know what shungite is? No, not Suge Knight, I think he's locked up in prison. I'm talkin' shungite. Anyways, it's a two billion year-old like, rock, stone that protects against frequencies and unwanted frequencies that may be traveling in the air. That's my story, I bought a whole bunch of stuff. Put 'em around the la casa. Little pyramids, stuff like that.' , {tts:false});
+	}
+	if (message.content.indexOf('gamer girl')!=-1 && message.content.indexOf('g')==-1)
+	{
+		message.channel.send('A girl.... AND a gamer? Whoa mama! Hummina hummina hummina bazooooooooing! eyes pop out AROOOOOOOOGA! jaw drops tongue rolls out WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF WOOF tongue bursts out of the mouth uncontrollably leaking face and everything in reach WURBLWUBRLBWURblrwurblwurlbrwubrlwburlwbruwrlblwublr tiny cupid shoots an arrow through heart Ahhhhhhhhhhh me lady... heart in the shape of a heart starts beating so hard you can see it through shirt ba-bum ba-bum ba-bum ba-bum ba-bum milk truck crashes into a bakery store in the background spiling white liquid and dough on the streets BABY WANTS TO FUCK inhales from the gas tank honka honka honka honka' , {tts:false});
 	}
 
 });
