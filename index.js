@@ -118,6 +118,14 @@ client.on('message', message => {
 	{
 		message.channel.send('https://cdn.betterttv.net/emote/5d6096974932b21d9c332904/3x');
 	}
+	if (message.content.indexOf('PogChamp')!=-1)
+	{
+		message.channel.send('https://cdn.betterttv.net/emote/5db3d44afb4519723fb2a071/3x');
+	}
+	if (message.content.indexOf('WeirdChamp')!=-1)
+	{
+		message.channel.send('https://cdn.betterttv.net/emote/5d9198fbd2458468c1f4adb7/3x');
+	}
 	//**************************************************************
 	if (message.content.indexOf('joe?')!=-1)
 	{
