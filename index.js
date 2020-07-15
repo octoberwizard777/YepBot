@@ -79,7 +79,14 @@ client.on('message', message => {
 	}
 	if (message.content.indexOf('EZ')!=-1)
 	{
-		message.channel.send('https://cdn.betterttv.net/emote/5590b223b344e2c42a9e28e3/3x');
+		if(message.content.length == 2 || message.content.indexOf(' EZ ')!=-1)
+		{
+			message.channel.send('https://cdn.betterttv.net/emote/5590b223b344e2c42a9e28e3/3x');
+		}
+		else
+		{
+			message.channel.send('did you mean EZ?');
+		}
 	}
 	if (message.content.indexOf('POGGERS')!=-1)
 	{
