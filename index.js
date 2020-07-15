@@ -164,6 +164,10 @@ client.on('message', message => {
 	{
 		message.channel.send('https://cdn.betterttv.net/emote/5e1a76dd8af14b5f1b438c04/3x');
 	}
+	if (message.content.indexOf('widepeepoSad')!=-1)
+	{
+		message.channel.send('https://cdn.betterttv.net/emote/5ebd239bf0fb3f168c4b58f0/3x');
+	}
 	if (message.content.indexOf('Clap')!=-1)
 	{
 		message.channel.send('https://cdn.betterttv.net/emote/55b6f480e66682f576dd94f5/3x');
